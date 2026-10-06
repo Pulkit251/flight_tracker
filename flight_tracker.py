@@ -26,8 +26,11 @@ EMAIL_TO = os.environ["EMAIL_TO"]
 HISTORY_FILE = Path("data/prices.csv")
 
 
-def minutes(hhmm):
-    h, m = map(int, hhmm.split(":"))
+def minutes(time_string):
+    # Google Flights can return either HH:MM
+    # or YYYY-MM-DD HH:MM
+    time_part = time_string.strip().split()[-1]
+    h, m = map(int, time_part.split(":")[:2])
     return h * 60 + m
 
 
