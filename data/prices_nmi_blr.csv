@@ -1,2 +1,3 @@
 checked_at_utc,trip,date,origin,destination,airline,flight_number,departure,arrival,price_inr
 2026-10-13T17:26:10.085692+00:00,Navi Mumbai to Bengaluru,2026-11-23,NMI,BLR,Air India Express,IX 1347,2026-11-23 17:30,2026-11-23 19:10,7182.0
+2026-10-13T21:55:38.161889+00:00,Navi Mumbai to Bengaluru,2026-11-23,NMI,BLR,Akasa Air,QP 2003,2026-11-23 18:35,2026-11-23 20:25,7206.0
