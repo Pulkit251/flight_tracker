@@ -1,0 +1,2 @@
+checked_at_utc,trip,date,origin,destination,airline,flight_number,departure,arrival,price_inr
+2026-10-13T17:26:12.943787+00:00,Bengaluru to Navi Mumbai (return),2026-11-27,BLR,NMI,Akasa Air,QP 2004,2026-11-27 21:20,2026-11-27 23:10,7475.0
