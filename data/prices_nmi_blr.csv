@@ -32,3 +32,4 @@ checked_at_utc,trip,date,origin,destination,airline,flight_number,departure,arri
 2026-10-19T07:59:20.711342+00:00,Navi Mumbai to Bengaluru,2026-11-23,NMI,BLR,Akasa Air,QP 2003,2026-11-23 18:35,2026-11-23 20:25,7206.0
 2026-10-19T15:47:00.602719+00:00,Navi Mumbai to Bengaluru,2026-11-23,NMI,BLR,Akasa Air,QP 2003,2026-11-23 18:35,2026-11-23 20:25,7206.0
 2026-10-19T21:39:11.791077+00:00,Navi Mumbai to Bengaluru,2026-11-23,NMI,BLR,Akasa Air,QP 2003,2026-11-23 18:35,2026-11-23 20:25,7206.0
+2026-10-20T01:58:46.097764+00:00,Navi Mumbai to Bengaluru,2026-11-23,NMI,BLR,Akasa Air,QP 2003,2026-11-23 18:35,2026-11-23 20:25,7206.0
