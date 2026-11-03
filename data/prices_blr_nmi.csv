@@ -92,3 +92,4 @@ checked_at_utc,trip,date,origin,destination,airline,flight_number,departure,arri
 2026-11-02T02:39:32.343091+00:00,Bengaluru to Navi Mumbai (return),2026-11-27,BLR,NMI,IndiGo,6E 2094,2026-11-27 20:55,2026-11-27 22:45,5631.0
 2026-11-02T13:43:22.021677+00:00,Bengaluru to Navi Mumbai (return),2026-11-27,BLR,NMI,IndiGo,6E 2094,2026-11-27 20:55,2026-11-27 22:45,6019.0
 2026-11-02T22:50:21.132864+00:00,Bengaluru to Navi Mumbai (return),2026-11-27,BLR,NMI,IndiGo,6E 2094,2026-11-27 20:55,2026-11-27 22:45,6019.0
+2026-11-03T03:58:32.625488+00:00,Bengaluru to Navi Mumbai (return),2026-11-27,BLR,NMI,IndiGo,6E 2094,2026-11-27 20:55,2026-11-27 22:45,6019.0
