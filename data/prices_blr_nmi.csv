@@ -103,3 +103,4 @@ checked_at_utc,trip,date,origin,destination,airline,flight_number,departure,arri
 2026-11-05T21:09:32.622008+00:00,Bengaluru to Navi Mumbai (return),2026-11-27,BLR,NMI,Akasa Air,QP 2004,2026-11-27 21:20,2026-11-27 23:10,6775.0
 2026-11-06T03:30:34.792358+00:00,Bengaluru to Navi Mumbai (return),2026-11-27,BLR,NMI,Air India Express,IX 1360,2026-11-27 22:55,2026-11-28 00:45,6414.0
 2026-11-06T13:07:01.529309+00:00,Bengaluru to Navi Mumbai (return),2026-11-27,BLR,NMI,Air India Express,IX 1581,2026-11-27 15:10,2026-11-27 16:50,5960.0
+2026-11-06T20:29:31.253693+00:00,Bengaluru to Navi Mumbai (return),2026-11-27,BLR,NMI,Air India Express,IX 1581,2026-11-27 15:10,2026-11-27 16:50,6928.0
