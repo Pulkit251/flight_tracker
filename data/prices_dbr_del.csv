@@ -1,0 +1,2 @@
+checked_at_utc,trip,date,origin,destination,airline,flight_number,departure,arrival,price_inr
+2026-11-08T05:54:22.113473+00:00,Darbhanga to Delhi,2026-11-15,DBR,DEL,IndiGo,6E 2323,2026-11-15 15:55,2026-11-15 17:45,7223.0
