@@ -1,9 +1,9 @@
-name: Track Navi Mumbai Bengaluru Flights
+name: Track Darbhanga Delhi Flights
 
 on:
   workflow_dispatch:
   schedule:
-    # Every 3 hours; GitHub Actions cron is UTC (these times align to IST).
+    # Every 3 hours; GitHub Actions cron uses UTC.
     - cron: "30 2,5,8,11,14,17,20,23 * * *"
 
 permissions:
@@ -25,7 +25,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Check outbound and return flight prices
+      - name: Check Darbhanga to Delhi flight prices
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
           EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
@@ -38,5 +38,5 @@ jobs:
           git config user.name "flight-price-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/
-          git diff --cached --quiet || git commit -m "Update NMI-BLR flight price history"
+          git diff --cached --quiet || git commit -m "Update DBR-DEL flight price history"
           git push

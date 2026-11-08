@@ -17,28 +17,18 @@ EMAIL_TO = os.environ["EMAIL_TO"]
 # Local departure times in India (inclusive start, exclusive end).
 TIME_WINDOWS = {
     "morning": (5 * 60, 12 * 60),
-    "afternoon": (12 * 60, 17 * 60),
-    "evening": (17 * 60, 24 * 60),
+    "afternoon": (12 * 60, 17 * 60)
 }
 
 TRIPS = [
     {
-        "name": "Navi Mumbai to Bengaluru",
-        "origin": "NMI",
-        "destination": "BLR",
-        "date": "2026-11-23",
-        "max_price": 5500,
-        "windows": ("morning", "evening"),
-        "history_file": "prices_nmi_blr.csv",
-    },
-    {
-        "name": "Bengaluru to Navi Mumbai (return)",
-        "origin": "BLR",
-        "destination": "NMI",
-        "date": "2026-11-27",
-        "max_price": 6000,
-        "windows": ("afternoon", "evening"),
-        "history_file": "prices_blr_nmi.csv",
+        "name": "Darbhanga to Delhi",
+        "origin": "DBR",
+        "destination": "DEL",
+        "date": "2026-11-15",
+        "max_price": 6500,
+        "windows": ("morning", "afternoon", "evening"),
+        "history_file": "prices_dbr_del.csv",
     },
 ]
 
