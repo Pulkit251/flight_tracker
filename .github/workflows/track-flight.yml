@@ -3,8 +3,8 @@ name: Track Darbhanga Delhi Flights
 on:
   workflow_dispatch:
   schedule:
-    # Every 3 hours; GitHub Actions cron uses UTC.
-    - cron: "30 2,5,8,11,14,17,20,23 * * *"
+    - cron: "0 0,3,6,9,12,15,18,21 * * *"
+    - cron: "30 1,4,7,10,13,16,19,22 * * *"
 
 permissions:
   contents: write
