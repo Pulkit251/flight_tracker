@@ -5,10 +5,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    # Every 90 minutes.
-    # GitHub cron uses UTC.
-    - cron: "17 0,3,6,9,12,15,18,21 * * *"
-    - cron: "47 1,4,7,10,13,16,19,22 * * *"
+  - cron: "17 * * * *"
 
 permissions:
   contents: write
