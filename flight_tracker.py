@@ -101,6 +101,12 @@ def find_flights(data, trip):
             if len(legs) != 1:  # Direct flights only
                 continue
             leg = legs[0]
+
+            # Exclude SpiceJet flights
+            airline = leg.get("airline", "").strip().lower()
+            if "spicejet" in airline:
+                continue
+
             dep = leg.get("departure_airport") or {}
             arr = leg.get("arrival_airport") or {}
 
